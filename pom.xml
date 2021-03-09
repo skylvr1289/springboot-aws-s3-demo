@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.aws</groupId>
-	<artifactId>springboot-demo</artifactId>
+	<artifactId>springboot-s3-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>aws-springboot</name>
+	<name>aws-springboot-s3-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
