@@ -1,7 +1,7 @@
 # Springboot AWS S3 Demo
 Sample Springboot application to use Local AWS Profile to access S3 functionalities. 
 # How to run
-   1. Set the local aws profile (You can use cago, Gossamer3). check this video  how to setup aws profile in local.  
+   1. Set the local aws profile (You can use [cago](https://gitlab.com/electric-it/cago), [Gossamer3](https://github.com/GESkunkworks/gossamer3)). check my [video](www.youtube.com) on how to setup aws profile in local.  
    2. Verify your C:\Users\<user_name>\.aws\credentials file. It should like like:
 
 ```sh
