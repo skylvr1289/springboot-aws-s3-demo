@@ -2,7 +2,7 @@
 Sample Springboot application to use Local AWS Profile to access S3 functionalities. 
 ## Prerequisites
    1. Set the local aws profile (You can use [cago](https://gitlab.com/electric-it/cago), [Gossamer3](https://github.com/GESkunkworks/gossamer3)). check my [video](www.youtube.com) on how to setup aws profile in local.  
-   2. Verify your `C:\Users\<user_name>\.aws\credentials` file. It should like like:
+   2. Verify your `C:\Users\<user_name>\.aws\credentials` file. It should look like:
 
 ```sh
 [default]
@@ -13,7 +13,7 @@ aws_security_token       = FwoGZXIvYXdzEEMaDLqlHgnn0uL3c1IfUCKSAqPSFY2BeEk64aL8Y
 x_principal_arn          = arn:aws:sts::216344255749:assumed-role/<aws_role>/<aws_user_name>
 x_security_token_expires = 2021-03-09T15:58:37+05:30
 ``` 
-   3. Change the `src\main\resources\application.yml` according to your AWS Profile name.
+   3. Change the `src\main\resources\application.yml` according to your AWS Profile name (above one is `default`).
   
 ## How to run
 1. locate the pom.xml file and run `mvn clean package`
